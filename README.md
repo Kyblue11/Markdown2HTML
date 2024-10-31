@@ -36,7 +36,7 @@ You can type markdown in to the LHS of the webpage and inspect the converted HTM
 
 
 ## Disclaimer
-Monash University holds copyright for code inside the `edu.monash.fit2099` package
+Monash University holds copyright for code inside the `Haskell/src/Instances` and `Haskell/src/Parser` files
 
 
 ## CFG in BNF for Markdown

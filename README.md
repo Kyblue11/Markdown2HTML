@@ -1,12 +1,12 @@
 ---
-title: Assignment 2 - Markdown2HTML
-author: FIT2102 Programming Paradigms
-margin: 1inch
+title: Markdown2HTML Convertere
+author: Aaron
+Disclaimer: below
 ---
 
-# Assignment 2: Markdown2HTML
+# Markdown2HTML
 
-Please do not change the names of the functions defined in the Assignment.hs file. You may (and are highly encouraged) to implement your parsers **alongside** these pre-defined functions.
+This repository harnesses the power of Haskell and TypeScript to create a **Markdown Parser** using Functional Reactive Programming. Users are able to create their own HTML files automatically, or upload any scaffold markdown file, make changes to it, and parse it into HTML-documented format.
 
 ## Running the Code
 

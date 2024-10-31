@@ -1,7 +1,6 @@
 ---
-title: Markdown2HTML Convertere
-author: Aaron
-Disclaimer: below
+title: Markdown2HTML Converter
+author: Aaron 
 ---
 
 # Markdown2HTML
@@ -35,6 +34,10 @@ $ npm run dev
 ```
 
 You can type markdown in to the LHS of the webpage and inspect the converted HTML.
+
+
+## Disclaimer
+Monash University holds copyright for code inside the `edu.monash.fit2099` package
 
 
 #### Part D: CFG in BNF for Markdown

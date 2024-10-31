@@ -1,4 +1,4 @@
-title: Markdown2HTML Converter
+title: Markdown2HTML Converter <br>
 author: Aaron 
 
 
@@ -39,7 +39,7 @@ You can type markdown in to the LHS of the webpage and inspect the converted HTM
 Monash University holds copyright for code inside the `edu.monash.fit2099` package
 
 
-#### Part D: CFG in BNF for Markdown
+## CFG in BNF for Markdown
 ```Markdown
 <ADT>                ::= "[" <AdtTypeList> "]"
 

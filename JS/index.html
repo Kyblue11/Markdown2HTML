@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML Converter</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Markdown to HTML Converter</h1>
+    </header>
+
+    <main>
+        <!-- Title Input Box -->
+        <section id="title-section" style="flex: 1; box-sizing: border-box;">
+            <h2>Enter Title:</h2>
+            <input type="text" id="title-input" placeholder="Enter page title">
+
+            <!-- Add a word count -->
+            <p id="word-count">Word Count: 0</p>
+
+        </section>
+        
+        <!-- Add a markdown input box -->
+        <input type="file" id="markdown-file-input" accept=".md">
+        <button id="reset-file-button">Reset File</button>
+        
+        <!-- Button Container -->
+        <div id="button-container">
+            <!-- Add Save Button -->
+            <button id="save-button">Save HTML</button>
+            
+            <!-- Fix the Render button -->
+            <button id="toggle-render-button">Toggle HTML Render</button>
+
+            <!-- Add a help button -->
+            <button id="help-button">Show Markdown Help</button>
+        </div>
+
+        <div id="help-section" style="display: none;">
+            <h2>Markdown Syntax Help</h2> 
+            <input type="text" id="search-help" placeholder="Search...">
+            <ul id="help-list">
+                <li># Heading 1 to...</li>
+                <li>###### Heading 6!</li>
+                <li>Alternative Heading 1<br>======</li>
+                <li>Heading level 2<br>---------------</li>
+                <li>**Bold**</li>
+                <li>_Italic_</li>
+                <li>~~Strikethrough~~</li>
+                <li>[Link](http://example.com)</li>
+                <li>`Inline code`</li>
+                <li>![Alt Text](imageURLpng "Caption Text")</li>
+                <li>Footnote reference[^1]</li>
+                <li>[^1]: Footnote text</li>
+                <li>> Blockquote</li>
+                <li>```haskell<br>Code block<br>```</li>
+                <li>1. Ordered list item 1<br>2. Nest with 4 whitespaces</li>
+                <li>|Table| Are | Cool|<br>|-----| --- |-----|<br>| here| _is_| data|<br></li>
+                <li>Free text underrated</li>
+            </ul>
+        </div>
+
+
+        <div id="container" style="display: flex; box-sizing: border-box;">
+            <section id="input-section" style="flex: 1; width: 100%; box-sizing: border-box;">
+                <h2 style="flex: 1; width: 100%">Enter Markdown:</h2>
+                <textarea id="markdown-input"  placeholder="Enter your Markdown here..."></textarea>
+            </section>
+            <section id="output-section" style="flex: 1; box-sizing: border-box;">
+                <h2>HTML Output:</h2>
+                <textarea id="html-output" style="width: 100%;" readonly></textarea>
+            </section>
+        </div>
+        <div id="render-container" style="display: flex; width: 100%;">
+            <section id="render-section" style="flex: 1;">
+                <h2>HTML Render</h2>
+                <div id="html-render"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Developed by Aaron Lam Kong Yew | Credits to <a href="https://edstem.org/au/courses/16784/discussion/2255761" target="_blank">this Ed Post</a> for the webpage modification.</p>
+    </footer>
+    <script src="./src/main.ts" type="module"></script>
+</body>
+
+</html>

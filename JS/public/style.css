@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    /* Ensure the sections are laid out horizontally */
+    justify-content: start;
+}
+
+textarea {
+    flex: 1;
+    width: 100%;
+    /* Take up available space equally */
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#input-section,
+#output-section {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+#html-output {
+    margin: 0;
+    flex: 1;
+    /* Add some space between input and output */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 100px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: brown solid 1px;
+}
+
+/* Added CSS for title section */
+#title-section {
+    display: flex;
+    align-items: baseline; /* Align items to the baseline */
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+#title-input {
+    font-size: 1em; /* Ensure the font size matches the surrounding text */
+}
+
+/* Added CSS for button container */
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    opacity: 0.6;
+}
+
+#button-container button {
+    width: 150px;
+    height: 40px;
+}
+
+/* Section for help text */
+#help-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#help-section h2 {
+    margin-top: 0;
+}
+
+#help-section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#help-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#help-section li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#help-section li code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+}

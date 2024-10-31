@@ -1,0 +1,19 @@
+diff --git a/examples/expected_output/tables.html b/examples/output/tables.html
+index 70fde47..534d3d7 100644
+--- a/examples/expected_output/tables.html
++++ b/examples/output/tables.html
+@@ -26,13 +26,9 @@
+                 <td>is</td>
+                 <td>data</td>
+             </tr>
+-            <tr>
+-                <td>here</td>
+-                <td>is also</td>
+-                <td><strong>bolded data</strong></td>
+-            </tr>
+         </tbody>
+     </table>
++    <p>| here | is also | <strong>bolded data</strong> |</p>
+ </body>
+ 
+ </html>

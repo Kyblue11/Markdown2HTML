@@ -4,7 +4,23 @@ author: Aaron
 
 # Markdown2HTML
 
-This repository harnesses the power of Haskell and TypeScript to create a **Markdown Parser** using Functional Reactive Programming. Users are able to create their own HTML files automatically, or upload any scaffold markdown file, make changes to it, and parse it into HTML-documented format.
+This repository harnesses the power of Haskell and TypeScript to create a **Markdown Parser** using Functional Reactive Programming. Users are able to create their own HTML files by typing, or upload any scaffold markdown file, make changes to it, and parse it into HTML-documented format.
+All input in the markdown file is parsed and automatically converted into HTML format. The HTML file is then displayed on the right side of the webpage.
+This program includes features such as:
+1. Nested collection of Text Modifiers
+2. Evenly-spaced Tables (hard mode)
+3. Select and open markdown files
+4. Markdown Help Library
+5. Trivial Word Count
+
+For more information, refer to [Documentation](./Documentation.pdf)
+
+![Markdown2HTML](./html_render.png)
+
+![syntax library](./syntax_library.png)
+
+![saved html file](./saved_html_file.png)
+
 
 ## Running the Code
 
